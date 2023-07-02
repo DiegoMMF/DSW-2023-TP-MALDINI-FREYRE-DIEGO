@@ -1,0 +1,26 @@
+a img {
+  height: 50px;
+}
+
+.card {
+  height: 500px;
+  img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+footer {
+  background-color: #4191c3;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #4191c3
+}
+
+$bg-dark: #4191c3;
+
+@import 'bootstrap/scss/bootstrap.scss';

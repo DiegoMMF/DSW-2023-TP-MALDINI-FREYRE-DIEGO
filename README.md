@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Trabajo Práctico Globalizador
+## Diseño de Sitios Web 2023
+### Alumno Diego Mario Maldini Freyre
+## Consigna
+Construcción de portal web responsive optimizado para dispositivos móviles.
+## Contexto
+Un cliente ha solicitado la construcción de un portal web para la venta de sus productos.
+## Maquetación
+### Deberá maquetar las siguientes interfaces:
+- Portada del sitio web
+- Pantalla de Registro
+- Formulario de Login
+- Detalle de artículos
+- Secciones comunes:
+    - Encabezado del sitio
+    - Navegación del sitio
+    - Pie de página o footer
+    - Enlaces sociales
+### Características de la maquetación
+- Debe ser responsiva utilizando el Framework Bootstrap 5.
+- Debe funcionar en resoluciones Pequeñas, medianas y grandes (Celular, Tablet y PC)
+#### Portada del sitio
+- Slide destacados:
+    - Slide de fotos + titulo + descripción + precio + enlace a la sección correspondiente
+- Productos destacados:
+    - Listará productos de mayor importancia con la siguiente información:
+        - Categoría
+        - Titulo
+        - Breve descripción
+        - Foto
+        - Precio
+        - Enlace a la sección correspondiente
+- Banners y promociones
+#### Login
+El formulario deberá contener como mínimo:
+- Un checkbox para recordar contraseña
+- Un Input para introducir el nombre de usuario (email)
+- Un Input para introducir la contraseña
+- Un botón para ingresar
+- Un botón o enlace para recuperar contraseña. Al hacer clic en recuperar contraseña debe ocultarse el formulario de login y aparecer el formulario para recuperar contraseña en el mismo contenido abierto.
+#### Formulario de registro
+- Nombre
+- Apellido
+- DNI
+- Email
+- Fecha de nacimiento (Calendario)
+- País (lista desplegable)
+- Provincia (lista desplegable)
+- Un checkbox para aceptar términos y condiciones
+- Botón de registrarse.
+Al hacer submit del formulario se deben ejecutar validaciones y mostrar errores según el caso:
+- Se debe ser mayor de edad.
+- Se deben aceptar términos y condiciones.
+#### Detalle de producto
+Los requerimientos mínimos son:
+- Visualización de galería de fotos de productos
+- Productos relacionados
+- Opción de compra
+## Componentes
+Será requisito fundamental que el alumno implemente los siguientes componentes Bootstrap mínimos:
+- Tooltip
+- Slider
+- Modal
+- DropDown
+- Collapse
+## Exigencias para la aprobación
+A los efectos de poder aprobar el trabajo, será requisito fundamental:
+- Sitio web responsive para Celular, Tablet y PC.
+    - Se validarán las 3 resoluciones.
+- NO pueden utilizarse generadores de sitios web.
+    - La maquetación deberá ser realizada por el alumno.
+- Entregar todo el código fuente del proyecto.
+- El trabajo práctico es individual.
+- Se deberá personalizar el Theme Bootstrap.
+    - No puede utilizarse el theme por defecto.
+    - Se deberán aplicar reglas de estilos y colores propios para adecuar Bootstrap al diseño del sitio así como también crear estilos propios.
+- Se valorará calidad y originalidad a la hora de puntuar.
+- Defensa del TP aprobada.
+## Detalles de presentación del TP
+Deberá adjuntarse una carpeta con el proyecto web comprimida en formato ZIP, GZIP, RAR o TAR con el siguiente nombre de archivo:
+> DSW-2023-TP-apellido-nombre.<extensión>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Todos los archivos necesarios para deben estar incluidos y el sitio debe funcionar en cualquier path y en cualquier lugar.
+No se deben utilizar rutas absolutas. (ej.: Referencias a carpetas del alumno.)
+En caso de ser necesario, se podrá agregar un archivo readme.txt, .doc o lo que el alumno prefiera con aclaraciones al profesor.
