@@ -1,3 +1,5 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 a img {
   height: 50px;
 }
@@ -21,6 +23,10 @@ header {
   background-color: #4191c3
 }
 
-$bg-dark: #4191c3;
+.network-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
-@import 'bootstrap/scss/bootstrap.scss';
+$bg-dark: #4191c3;

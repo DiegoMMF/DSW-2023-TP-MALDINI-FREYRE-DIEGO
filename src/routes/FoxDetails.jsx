@@ -11,14 +11,15 @@ export const FoxDetails = () => {
       <div className="row">
         <div className="col">
           <FoxCard
-            cardTitle={foxies[id - 1].cardTitle}
-            cardText={foxies[id - 1].cardText}
-            cardImg={foxies[id - 1].cardImg}
+            foxName={foxies[id - 1].foxName}
+            foxInfo={foxies[id - 1].foxInfo}
+            foxPhoto={foxies[id - 1].foxPhoto}
+            foxNumber={id}
           />
         </div>
         <div className="col">
           <ExtraData
-            cardTitle={foxies[id - 1].cardTitle}
+            foxName={foxies[id - 1].foxName}
             data={foxies[id - 1].data}
           />
         </div>

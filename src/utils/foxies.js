@@ -1,8 +1,8 @@
 export const foxies = [
   {
-    cardTitle: 'Rock',
-    cardText: 'Juguetón y lleno de energía. Siempre listo para la diversión.',
-    cardImg: 'https://randomfox.ca/images/1.jpg',
+    foxName: 'Rock',
+    foxInfo: 'Juguetón y lleno de energía. Siempre listo para la diversión.',
+    foxPhoto: 'https://randomfox.ca/images/1.jpg',
     data: {
       age: 2,
       sex: 'Macho',
@@ -11,9 +11,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Max',
-    cardText: 'Amigable y leal. Siempre listo para ser tu mejor compañero.',
-    cardImg: 'https://randomfox.ca/images/2.jpg',
+    foxName: 'Max',
+    foxInfo: 'Amigable y leal. Siempre listo para ser tu mejor compañero.',
+    foxPhoto: 'https://randomfox.ca/images/2.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -22,9 +22,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Luna',
-    cardText: 'Elegante y curiosa. Siempre lista para explorar el mundo que la rodea.',
-    cardImg: 'https://randomfox.ca/images/3.jpg',
+    foxName: 'Luna',
+    foxInfo: 'Elegante y curiosa. Siempre lista para explorar el mundo que la rodea.',
+    foxPhoto: 'https://randomfox.ca/images/3.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -33,9 +33,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Charlie',
-    cardText: 'Juguetón y travieso. Siempre en busca de nuevas aventuras.',
-    cardImg: 'https://randomfox.ca/images/4.jpg',
+    foxName: 'Charlie',
+    foxInfo: 'Juguetón y travieso. Siempre en busca de nuevas aventuras.',
+    foxPhoto: 'https://randomfox.ca/images/4.jpg',
     data: {
       age: 1,
       sex: 'Macho',
@@ -44,9 +44,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Bella',
-    cardText: 'Cariñosa y amigable. Siempre lista para brindar amor incondicional.',
-    cardImg: 'https://randomfox.ca/images/5.jpg',
+    foxName: 'Bella',
+    foxInfo: 'Cariñosa y amigable. Siempre lista para brindar amor incondicional.',
+    foxPhoto: 'https://randomfox.ca/images/5.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -55,9 +55,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Leo',
-    cardText: 'Valiente y audaz. Siempre listo para nuevas experiencias emocionantes.',
-    cardImg: 'https://randomfox.ca/images/6.jpg',
+    foxName: 'Leo',
+    foxInfo: 'Valiente y audaz. Siempre listo para nuevas experiencias emocionantes.',
+    foxPhoto: 'https://randomfox.ca/images/6.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -66,9 +66,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Coco',
-    cardText: 'Elegante y sofisticado. Siempre listo para impresionar con su estilo.',
-    cardImg: 'https://randomfox.ca/images/7.jpg',
+    foxName: 'Coco',
+    foxInfo: 'Elegante y sofisticado. Siempre listo para impresionar con su estilo.',
+    foxPhoto: 'https://randomfox.ca/images/7.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -77,9 +77,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Maximus',
-    cardText: 'Fuerte y protector. Siempre listo para cuidar y defender a sus seres queridos.',
-    cardImg: 'https://randomfox.ca/images/8.jpg',
+    foxName: 'Maximus',
+    foxInfo: 'Fuerte y protector. Siempre listo para cuidar y defender a sus seres queridos.',
+    foxPhoto: 'https://randomfox.ca/images/8.jpg',
     data: {
       age: 4,
       sex: 'Macho',
@@ -88,9 +88,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Lola',
-    cardText: 'Dulce y encantadora. Siempre lista para robar corazones con su ternura.',
-    cardImg: 'https://randomfox.ca/images/9.jpg',
+    foxName: 'Lola',
+    foxInfo: 'Dulce y encantadora. Siempre lista para robar corazones con su ternura.',
+    foxPhoto: 'https://randomfox.ca/images/9.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -99,9 +99,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Milo',
-    cardText: 'Inteligente y curioso. Siempre listo para explorar y aprender cosas nuevas.',
-    cardImg: 'https://randomfox.ca/images/10.jpg',
+    foxName: 'Milo',
+    foxInfo: 'Inteligente y curioso. Siempre listo para explorar y aprender cosas nuevas.',
+    foxPhoto: 'https://randomfox.ca/images/10.jpg',
     data: {
       age: 2,
       sex: 'Macho',
@@ -110,9 +110,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Oliver',
-    cardText: 'Cauteloso y astuto. Siempre listo para enfrentar cualquier desafío.',
-    cardImg: 'https://randomfox.ca/images/11.jpg',
+    foxName: 'Oliver',
+    foxInfo: 'Cauteloso y astuto. Siempre listo para enfrentar cualquier desafío.',
+    foxPhoto: 'https://randomfox.ca/images/11.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -121,9 +121,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Lily',
-    cardText: 'Tierna y juguetona. Siempre lista para entretener y alegrar tu día.',
-    cardImg: 'https://randomfox.ca/images/12.jpg',
+    foxName: 'Lily',
+    foxInfo: 'Tierna y juguetona. Siempre lista para entretener y alegrar tu día.',
+    foxPhoto: 'https://randomfox.ca/images/12.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -132,9 +132,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Oscar',
-    cardText: 'Intrépido y explorador. Siempre listo para descubrir nuevos territorios.',
-    cardImg: 'https://randomfox.ca/images/13.jpg',
+    foxName: 'Oscar',
+    foxInfo: 'Intrépido y explorador. Siempre listo para descubrir nuevos territorios.',
+    foxPhoto: 'https://randomfox.ca/images/13.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -143,9 +143,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Sophie',
-    cardText: 'Amigable y sociable. Siempre lista para hacer nuevos amigos.',
-    cardImg: 'https://randomfox.ca/images/14.jpg',
+    foxName: 'Sophie',
+    foxInfo: 'Amigable y sociable. Siempre lista para hacer nuevos amigos.',
+    foxPhoto: 'https://randomfox.ca/images/14.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -154,9 +154,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Rocco',
-    cardText: 'Energético y entusiasta. Siempre listo para jugar y correr sin parar.',
-    cardImg: 'https://randomfox.ca/images/15.jpg',
+    foxName: 'Rocco',
+    foxInfo: 'Energético y entusiasta. Siempre listo para jugar y correr sin parar.',
+    foxPhoto: 'https://randomfox.ca/images/15.jpg',
     data: {
       age: 2,
       sex: 'Macho',
@@ -165,9 +165,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Mia',
-    cardText: 'Elegante y encantadora. Siempre lista para cautivar con su belleza.',
-    cardImg: 'https://randomfox.ca/images/16.jpg',
+    foxName: 'Mia',
+    foxInfo: 'Elegante y encantadora. Siempre lista para cautivar con su belleza.',
+    foxPhoto: 'https://randomfox.ca/images/16.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -176,9 +176,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Teddy',
-    cardText: 'Dulce y cariñoso. Siempre listo para brindar abrazos y afecto.',
-    cardImg: 'https://randomfox.ca/images/17.jpg',
+    foxName: 'Teddy',
+    foxInfo: 'Dulce y cariñoso. Siempre listo para brindar abrazos y afecto.',
+    foxPhoto: 'https://randomfox.ca/images/17.jpg',
     data: {
       age: 2,
       sex: 'Macho',
@@ -187,9 +187,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Willow',
-    cardText: 'Misteriosa y curiosa. Siempre lista para explorar los secretos de la naturaleza.',
-    cardImg: 'https://randomfox.ca/images/18.jpg',
+    foxName: 'Willow',
+    foxInfo: 'Misteriosa y curiosa. Siempre lista para explorar los secretos de la naturaleza.',
+    foxPhoto: 'https://randomfox.ca/images/18.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -198,9 +198,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Sam',
-    cardText: 'Amigable y leal. Siempre listo para ser tu compañero de aventuras.',
-    cardImg: 'https://randomfox.ca/images/19.jpg',
+    foxName: 'Sam',
+    foxInfo: 'Amigable y leal. Siempre listo para ser tu compañero de aventuras.',
+    foxPhoto: 'https://randomfox.ca/images/19.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -209,9 +209,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Ruby',
-    cardText: 'Elegante y encantadora. Siempre lista para impresionar con su belleza.',
-    cardImg: 'https://randomfox.ca/images/20.jpg',
+    foxName: 'Ruby',
+    foxInfo: 'Elegante y encantadora. Siempre lista para impresionar con su belleza.',
+    foxPhoto: 'https://randomfox.ca/images/20.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -220,9 +220,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Archie',
-    cardText: 'Juguetón y travieso. Siempre en busca de nuevas aventuras y diversión.',
-    cardImg: 'https://randomfox.ca/images/21.jpg',
+    foxName: 'Archie',
+    foxInfo: 'Juguetón y travieso. Siempre en busca de nuevas aventuras y diversión.',
+    foxPhoto: 'https://randomfox.ca/images/21.jpg',
     data: {
       age: 1,
       sex: 'Macho',
@@ -231,9 +231,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Rosie',
-    cardText: 'Cariñosa y afectuosa. Siempre lista para brindar amor y mimos.',
-    cardImg: 'https://randomfox.ca/images/22.jpg',
+    foxName: 'Rosie',
+    foxInfo: 'Cariñosa y afectuosa. Siempre lista para brindar amor y mimos.',
+    foxPhoto: 'https://randomfox.ca/images/22.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -242,9 +242,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Hunter',
-    cardText: 'Valiente y audaz. Siempre listo para enfrentar cualquier desafío con determinación.',
-    cardImg: 'https://randomfox.ca/images/23.jpg',
+    foxName: 'Hunter',
+    foxInfo: 'Valiente y audaz. Siempre listo para enfrentar cualquier desafío con determinación.',
+    foxPhoto: 'https://randomfox.ca/images/23.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -253,9 +253,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Zoe',
-    cardText: 'Juguetona y enérgica. Siempre lista para divertirse y explorar nuevas aventuras.',
-    cardImg: 'https://randomfox.ca/images/24.jpg',
+    foxName: 'Zoe',
+    foxInfo: 'Juguetona y enérgica. Siempre lista para divertirse y explorar nuevas aventuras.',
+    foxPhoto: 'https://randomfox.ca/images/24.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -264,9 +264,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Simba',
-    cardText: 'Cauteloso y astuto. Siempre listo para acechar desde las sombras.',
-    cardImg: 'https://randomfox.ca/images/25.jpg',
+    foxName: 'Simba',
+    foxInfo: 'Cauteloso y astuto. Siempre listo para acechar desde las sombras.',
+    foxPhoto: 'https://randomfox.ca/images/25.jpg',
     data: {
       age: 3,
       sex: 'Macho',
@@ -275,9 +275,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Molly',
-    cardText: 'Tierna y juguetona. Siempre lista para llenar tu vida de alegría y diversión.',
-    cardImg: 'https://randomfox.ca/images/26.jpg',
+    foxName: 'Molly',
+    foxInfo: 'Tierna y juguetona. Siempre lista para llenar tu vida de alegría y diversión.',
+    foxPhoto: 'https://randomfox.ca/images/26.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -286,9 +286,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Riley',
-    cardText: 'Inteligente y curioso. Siempre listo para aprender y descubrir cosas nuevas.',
-    cardImg: 'https://randomfox.ca/images/27.jpg',
+    foxName: 'Riley',
+    foxInfo: 'Inteligente y curioso. Siempre listo para aprender y descubrir cosas nuevas.',
+    foxPhoto: 'https://randomfox.ca/images/27.jpg',
     data: {
       age: 2,
       sex: 'Macho',
@@ -297,9 +297,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Hazel',
-    cardText: 'Dulce y encantadora. Siempre lista para robar corazones con su ternura.',
-    cardImg: 'https://randomfox.ca/images/28.jpg',
+    foxName: 'Hazel',
+    foxInfo: 'Dulce y encantadora. Siempre lista para robar corazones con su ternura.',
+    foxPhoto: 'https://randomfox.ca/images/28.jpg',
     data: {
       age: 2,
       sex: 'Hembra',
@@ -308,9 +308,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Bruno',
-    cardText: 'Fuerte y valiente. Siempre listo para proteger y cuidar a su manada.',
-    cardImg: 'https://randomfox.ca/images/29.jpg',
+    foxName: 'Bruno',
+    foxInfo: 'Fuerte y valiente. Siempre listo para proteger y cuidar a su manada.',
+    foxPhoto: 'https://randomfox.ca/images/29.jpg',
     data: {
       age: 4,
       sex: 'Macho',
@@ -319,9 +319,9 @@ export const foxies = [
     },
   },
   {
-    cardTitle: 'Lucy',
-    cardText: 'Elegante y sofisticada. Siempre lista para impresionar con su estilo y elegancia.',
-    cardImg: 'https://randomfox.ca/images/30.jpg',
+    foxName: 'Lucy',
+    foxInfo: 'Elegante y sofisticada. Siempre lista para impresionar con su estilo y elegancia.',
+    foxPhoto: 'https://randomfox.ca/images/30.jpg',
     data: {
       age: 2,
       sex: 'Hembra',

@@ -2,21 +2,22 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 export const FoxCard = ({
-    cardTitle = 'Título de la tarjeta',
-    cardText = 'Texto de la tarjeta',
-    cardImg = 'https://via.placeholder.com/150',
+    foxName,
+    foxInfo,
+    foxPhoto,
+    foxNumber,
     showDetailsButton,
 }) => {
     let cardClassName = "card";
     if (showDetailsButton) { cardClassName += " details" }
     return (
         <div className={cardClassName}>
-            <img src={cardImg} className="card-img-top" alt="..." />
+            <img src={foxPhoto} className="card-img-top" alt="..." />
             <div className="card-body">
-                <h5 className="card-title">{cardTitle}</h5>
-                <p className="card-text">{cardText}</p>
+                <h5 className="card-title">{foxName}</h5>
+                <p className="card-text">{foxInfo}</p>
                 {showDetailsButton && (
-                    <NavLink href="#" className="btn btn-primary">
+                    <NavLink to={`foxes/${foxNumber}`} className="btn btn-primary">
                         Detalles
                     </NavLink>
                 )}
