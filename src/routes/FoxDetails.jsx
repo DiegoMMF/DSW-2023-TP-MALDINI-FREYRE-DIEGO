@@ -8,8 +8,8 @@ export const FoxDetails = () => {
   const id = useLocation().pathname?.split('/')[2]
   return (
     <div className="container">
-      <div className="row">
-        <div className="col">
+      <div className="row d-flex justify-content-center">
+        <div className="col-12 my-2 col-md-5 col-lg-3">
           <FoxCard
             foxName={foxies[id - 1].foxName}
             foxInfo={foxies[id - 1].foxInfo}
@@ -17,7 +17,7 @@ export const FoxDetails = () => {
             foxNumber={id}
           />
         </div>
-        <div className="col">
+        <div className="col-12 my-2 col-md-7 col-lg-5">
           <ExtraData
             foxName={foxies[id - 1].foxName}
             data={foxies[id - 1].data}

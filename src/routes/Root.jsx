@@ -15,7 +15,6 @@ export const Root = () => {
             <Header openModal={openModal} />
             <div className="container my-5">
                 <Outlet />
-                <NetworkLinks />
             </div>
             <Footer />
             {showModal && (

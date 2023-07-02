@@ -4,22 +4,21 @@ import { foxies } from '../utils/foxies'
 
 export const Foxes = () => {
     return (
-        <div className='container'>
+        <section className='container'>
+            <h1>Nuestros Zorritos</h1>
             <div className='row'>
-                <h1>Nuestros Zorritos</h1>
-                <div>
                     {foxies.map(({ foxPhoto, foxInfo, foxName }, index) => (
+                        <div key={foxPhoto} className='col-md-4 col-sm-12 col-lg-3'>
                         <FoxCard
-                            key={foxPhoto}
                             foxName={foxName}
                             foxInfo={foxInfo}
                             foxPhoto={foxPhoto}
                             foxNumber={index+1}
                             showDetailsButton
                         />
+                        </div>
                     ))}
-                </div>
             </div>
-        </div>
+        </section>
     )
 }

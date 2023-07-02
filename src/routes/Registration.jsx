@@ -95,7 +95,7 @@ export const Registration = () => {
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} md="6" controlId="validationCustom03">
-          <Form.Label>Provincia</Form.Label>
+          <Form.Label><abbr title='Sólo de Argentina'>Provincia</abbr></Form.Label>
           <Form.Select
             value={selectedProvince}
             onChange={(event) => setSelectedProvince(event.target.value)}
@@ -115,7 +115,7 @@ export const Registration = () => {
         </Form.Group>
 
         <Form.Group as={Col} md="3" controlId="validationCustom04">
-          <Form.Label>País</Form.Label>
+          <Form.Label><abbr title='Sólo América del Sur'>País</abbr></Form.Label>
 
           <Form.Select
             value={selectedCountry}

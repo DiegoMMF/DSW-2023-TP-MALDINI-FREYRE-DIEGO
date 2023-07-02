@@ -7,26 +7,22 @@ export const FoxCard = ({
     foxPhoto,
     foxNumber,
     showDetailsButton,
-}) => {
-    let cardClassName = "card";
-    if (showDetailsButton) { cardClassName += " details" }
-    return (
-        <div className={cardClassName}>
-            <img src={foxPhoto} className="card-img-top" alt="..." />
-            <div className="card-body">
-                <h5 className="card-title">{foxName}</h5>
-                {showDetailsButton && (
-                    <>
-                        <p className="card-text">{foxInfo}</p>
-                        <NavLink
-                            to={`/foxes/${foxNumber}`}
-                            className="btn btn-primary"
-                        >
-                            Mas Info
-                        </NavLink>
-                    </>
-                )}
-            </div>
+}) => (
+    <div className="card my-3">
+        <img src={foxPhoto} className="card-img-top" alt="..." />
+        <div className="card-body panel">
+            <h5 className="card-title">{foxName}</h5>
+            {showDetailsButton && (
+                <>
+                    <p className="card-text">{foxInfo}</p>
+                    <NavLink
+                        to={`/foxes/${foxNumber}`}
+                        className="btn btn-primary"
+                    >
+                        Mas Info
+                    </NavLink>
+                </>
+            )}
         </div>
-    )
-}
+    </div>
+);

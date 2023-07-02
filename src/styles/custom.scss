@@ -6,6 +6,26 @@ $theme-colors: (
   'danger': teal
 );
 
+.hstack {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.network-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.card-img-top {
+  height: 15rem;
+  object-fit: cover;
+}
 
 /* import bootstrap to set changes */
 @import '~bootstrap/scss/bootstrap';

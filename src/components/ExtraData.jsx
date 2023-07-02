@@ -17,12 +17,20 @@ export const ExtraData = ({
                 <p className="card-text">
                     {data?.longDescription}
                 </p>
+                <div className="row mb-4">
+                    <div className="col">
+                        5.000 USD
+                    </div>
+                    <div className="col">
+                        Disponible
+                    </div>
+                </div>
                 <NavLink href="#" className="btn btn-primary">
                     Contáctanos
                 </NavLink>
             </div>
             <div className="card-footer text-body-secondary">
-                {data?.breeder}
+                <small>Criadero: </small> {data?.breeder}
             </div>
         </div>
     )
