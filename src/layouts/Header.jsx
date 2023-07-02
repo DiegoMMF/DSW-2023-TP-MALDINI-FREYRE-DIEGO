@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from "../images/logoUTN.png"
-import { Button } from 'react-bootstrap'
 
 export const Header = ({ openModal }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +12,7 @@ export const Header = ({ openModal }) => {
         >
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
-                    <img src={logo} alt="UTN logo" />
+                    Mi Mascota es un Zorro!
                 </NavLink>
                 <button
                     className="navbar-toggler"

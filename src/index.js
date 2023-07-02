@@ -6,7 +6,8 @@ import { Registration } from './routes/Registration';
 import { Root } from './routes/Root';
 import { Foxes } from './components/Foxes';
 import { ErrorPage } from './ErrorPage';
-import "./custom.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/custom.scss';
 
 const router = createBrowserRouter([
     {
