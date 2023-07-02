@@ -1,6 +1,14 @@
 # Trabajo Práctico Globalizador
 ## Diseño de Sitios Web 2023
 ### Alumno Diego Mario Maldini Freyre
+
+
+## Cómo probarlo?
+
+- El sitio se encuentra alojado en Vercel. Se puede ver ingresando a la página web: https://dsw-2023-tp-maldini-freyre-diego.vercel.app/
+
+- O se puede ejecutar desde la terminal de cualquier sistema operativo, si se posee Node 18v o superior, se puede clonar el repositorio y ejecutar el comando `npm install` para instalar las dependencias y luego `npm start` para iniciar el servidor localmente.
+- La dirección actual de este repositorio es https://github.com/DiegoMMF/dsw-2023-tp-maldini-freyre-diego
 ## Consigna
 Construcción de portal web responsive optimizado para dispositivos móviles.
 ## Contexto
