@@ -33,11 +33,11 @@ Un cliente ha solicitado la construcción de un portal web para la venta de sus 
 - Banners y promociones
 #### Login
 El formulario deberá contener como mínimo:
-- Un checkbox para recordar contraseña
-- Un Input para introducir el nombre de usuario (email)
-- Un Input para introducir la contraseña
-- Un botón para ingresar
-- Un botón o enlace para recuperar contraseña. Al hacer clic en recuperar contraseña debe ocultarse el formulario de login y aparecer el formulario para recuperar contraseña en el mismo contenido abierto.
+- ~~Un checkbox para recordar contraseña~~
+- ~~Un Input para introducir el nombre de usuario (email)~~
+- ~~Un Input para introducir la contraseña~~
+- ~~Un botón para ingresar~~
+- ~~Un botón o enlace para recuperar contraseña. Al hacer clic en recuperar contraseña debe ocultarse el formulario de login y aparecer el formulario para recuperar contraseña en el mismo contenido abierto.~~
 #### Formulario de registro
 - ~~Nombre~~
 - ~~Apellido~~
@@ -49,7 +49,7 @@ El formulario deberá contener como mínimo:
 - ~~Un checkbox para aceptar términos y condiciones~~
 - ~~Botón de registrarse.~~
 ~~Al hacer submit del formulario se deben ejecutar validaciones y mostrar errores según el caso:~~
-- Se debe ser mayor de edad.~~~~
+- ~~Se debe ser mayor de edad.~~
 - ~~Se deben aceptar términos y condiciones.~~
 #### Detalle de producto
 Los requerimientos mínimos son:
