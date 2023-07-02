@@ -8,6 +8,7 @@ import { Foxes } from './components/Foxes';
 import { ErrorPage } from './ErrorPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/custom.scss';
+import { Slides } from './layouts/Slides';
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
         element: <Root />,
         errorElement: <ErrorPage />,
         children: [
+            {
+                path: "foxes",
+                element: <Slides />,
+            },
             {
                 path: "foxes/:foxName",
                 element: <FoxDetails />,

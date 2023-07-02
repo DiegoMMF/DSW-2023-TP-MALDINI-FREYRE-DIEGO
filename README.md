@@ -7,17 +7,17 @@ Construcción de portal web responsive optimizado para dispositivos móviles.
 Un cliente ha solicitado la construcción de un portal web para la venta de sus productos.
 ## Maquetación
 ### Deberá maquetar las siguientes interfaces:
-- Portada del sitio web
+- ~~Portada del sitio web~~
 - Pantalla de Registro
 - Formulario de Login
-- Detalle de artículos
+- ~~Detalle de artículos~~
 - Secciones comunes:
-    - Encabezado del sitio
-    - Navegación del sitio
-    - Pie de página o footer
-    - Enlaces sociales
+    - ~~Encabezado del sitio~~
+    - ~~Navegación del sitio~~
+    - ~~Pie de página o footer~~
+    - ~~Enlaces sociales~~
 ### Características de la maquetación
-- Debe ser responsiva utilizando el Framework Bootstrap 5.
+- ~~Debe ser responsiva utilizando el Framework Bootstrap 5.~~
 - Debe funcionar en resoluciones Pequeñas, medianas y grandes (Celular, Tablet y PC)
 #### Portada del sitio
 - Slide destacados:

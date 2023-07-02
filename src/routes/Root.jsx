@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { Footer } from "../layouts/Footer";
 import { Header } from "../layouts/Header";
 import { ModalSignIn } from "../components/ModalSignIn";
-import { NetworkLinks } from "../components/NetworkLinks";
+import { NetworkLinks } from "../layouts/NetworkLinks";
 import { useState } from "react";
 
 export const Root = () => {

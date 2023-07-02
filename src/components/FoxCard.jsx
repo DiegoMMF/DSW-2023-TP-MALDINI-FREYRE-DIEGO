@@ -17,7 +17,7 @@ export const FoxCard = ({
                 <h5 className="card-title">{foxName}</h5>
                 <p className="card-text">{foxInfo}</p>
                 {showDetailsButton && (
-                    <NavLink to={`foxes/${foxNumber}`} className="btn btn-primary">
+                    <NavLink to={`/foxes/${foxNumber}`} className="btn btn-primary">
                         Detalles
                     </NavLink>
                 )}

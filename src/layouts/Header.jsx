@@ -33,12 +33,12 @@ export const Header = ({ openModal }) => {
                 >
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="foxes/25">
+                            <NavLink className="nav-link" to="/foxes">
                                 Mis Mascotas
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="registration">
+                            <NavLink className="nav-link" to="/registration">
                                 Registrarme
                             </NavLink>
                         </li>
