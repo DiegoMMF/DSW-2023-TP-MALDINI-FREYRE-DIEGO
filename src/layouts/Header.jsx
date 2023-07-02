@@ -12,7 +12,7 @@ export const Header = ({ openModal }) => {
         >
             <div className="container">
                 <NavLink className="navbar-brand" to="/">
-                    Mi Mascota es un Zorro!
+                    Adopta un Zorro!
                 </NavLink>
                 <button
                     className="navbar-toggler"
@@ -34,7 +34,7 @@ export const Header = ({ openModal }) => {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/foxes">
-                                Mis Mascotas
+                                Recorrido
                             </NavLink>
                         </li>
                         <li className="nav-item">
