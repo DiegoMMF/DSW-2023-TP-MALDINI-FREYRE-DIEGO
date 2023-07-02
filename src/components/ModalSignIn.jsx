@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Button } from 'react-bootstrap'
+import { Modal, Button, Form } from 'react-bootstrap'
 
 export const ModalSignIn = ({ showModal, closeModal }) => (
   <Modal
@@ -9,17 +9,31 @@ export const ModalSignIn = ({ showModal, closeModal }) => (
     keyboard={false}
   >
     <Modal.Header closeButton>
-      <Modal.Title>Modal title</Modal.Title>
+      <Modal.Title>Ingresar</Modal.Title>
     </Modal.Header>
     <Modal.Body>
-      I will not close if you click outside me. Don not even try to press
-      escape key.
+    <Form>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email</Form.Label>
+        <Form.Control type="email" placeholder="Email" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Password</Form.Label>
+        <Form.Control type="password" placeholder="Password" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        <Form.Check type="checkbox" label="Verificar" />
+      </Form.Group>
+      <Button variant="primary" type="submit">
+        Enviar
+      </Button>
+    </Form>
     </Modal.Body>
     <Modal.Footer>
       <Button variant="secondary" onClick={closeModal}>
-        Close
+        Cerrar
       </Button>
-      <Button variant="primary" onClick={closeModal}>Understood</Button>
     </Modal.Footer>
   </Modal>
-)
+);

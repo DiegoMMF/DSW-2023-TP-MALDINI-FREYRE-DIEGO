@@ -8,8 +8,8 @@ Un cliente ha solicitado la construcción de un portal web para la venta de sus 
 ## Maquetación
 ### Deberá maquetar las siguientes interfaces:
 - ~~Portada del sitio web~~
-- Pantalla de Registro
-- Formulario de Login
+- ~~Pantalla de Registro~~
+- ~~Formulario de Login~~
 - ~~Detalle de artículos~~
 - ~~Secciones comunes:~~
     - ~~Encabezado del sitio~~
@@ -43,13 +43,13 @@ El formulario deberá contener como mínimo:
 - ~~Apellido~~
 - ~~DNI~~
 - ~~Email~~
-- Fecha de nacimiento (Calendario)
-- País (lista desplegable)
-- Provincia (lista desplegable)
+- ~~Fecha de nacimiento (Calendario)~~
+- ~~País (lista desplegable)~~
+- ~~Provincia (lista desplegable)~~
 - ~~Un checkbox para aceptar términos y condiciones~~
 - ~~Botón de registrarse.~~
 ~~Al hacer submit del formulario se deben ejecutar validaciones y mostrar errores según el caso:~~
-- Se debe ser mayor de edad.
+- Se debe ser mayor de edad.~~~~
 - ~~Se deben aceptar términos y condiciones.~~
 #### Detalle de producto
 Los requerimientos mínimos son:
@@ -61,7 +61,7 @@ Será requisito fundamental que el alumno implemente los siguientes componentes 
 - Tooltip
 - ~~Slider~~
 - ~~Modal~~
-- DropDown
+- ~~DropDown~~
 - ~~Collapse~~
 ## Exigencias para la aprobación
 A los efectos de poder aprobar el trabajo, será requisito fundamental:
